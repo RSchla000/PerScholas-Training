@@ -31,9 +31,12 @@ public class AssetsLiabilitiesCheck {
     def.displayAccountingEquation();
 
     AssetsLiabilitiesCheck ghi= new AssetsLiabilitiesCheck();
-    ghi.compareEquation(100,40);
-    System.out.println("Compare" +ghi.compareEquation);
+    System.out.println("Compare = " +ghi.compareEquation(100,40));
+
+
     }
+
+
 
 
     }
