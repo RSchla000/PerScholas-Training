@@ -8,6 +8,8 @@ public class EquityCalculator {
         return assets - liabilities;
     }
 
+
+
     static void main(String[] args) {
         EquityCalculator ec = new EquityCalculator();
         Scanner scanner = new Scanner(System.in);
