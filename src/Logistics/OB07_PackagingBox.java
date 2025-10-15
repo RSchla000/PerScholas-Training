@@ -5,6 +5,8 @@ public class OB07_PackagingBox {
     private double breadth;
     private double height;
     private double volume;
+    private double weight;
+    private double price;
 
     public void setLength(double length){
         this.length = length;
@@ -14,6 +16,13 @@ public class OB07_PackagingBox {
     }
     public void setHeight(double height){
         this.height = height;
+    }
+
+    public void setWeight(double weight){
+        this.weight = weight;
+    }
+    public void setPrice(double price){
+        this.price = price;
     }
     public double getLength() {
         return length;
@@ -33,5 +42,10 @@ public class OB07_PackagingBox {
         return volume;
     }
 
-
+   public double getWeight(){
+        return weight;
+   }
+   public double getPrice(){
+        return price;
+   }
 }
